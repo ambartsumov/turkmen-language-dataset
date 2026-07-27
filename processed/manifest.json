@@ -1,0 +1,141 @@
+{
+  "dataset_name": "turkmen_legal_mixed_sources",
+  "build_date_utc": "2026-07-27 (Updated with Turkmenportal)",
+  "content_language": "Turkmen (Latin script)",
+  "output_encoding": "UTF-8",
+  "format": "JSONL compressed with Zstandard; files remain separated by source and license",
+  "language_filter": "Source language labels plus fastText lid.176; HPLT requires fastText prediction __label__tk for every retained document.",
+  "totals": {
+    "records_kept": 336076,
+    "characters_kept": 550003912
+  },
+  "sources": [
+    {
+      "name": "hplt_tuk_cleaned",
+      "source": {
+        "source_url": "https://data.hplt-project.org/two/cleaned/tuk_Latn/1.jsonl.zst",
+        "license": "CC0 for data packaging; see HPLT terms for source-text caveats",
+        "kind": "monolingual_web_documents"
+      },
+      "source_filename": "hplt_tuk_cleaned_1.jsonl.zst",
+      "source_sha256": "d1c517b0d5810f85a0894e281ea693f3b0fb5810adfdd8af1d5d7771f9c9f3e9",
+      "source_bytes": 186500190,
+      "processed_file": "processed/monolingual/hplt_tuk_cleaned.jsonl.zst",
+      "records_seen": 171037,
+      "records_kept": 150282,
+      "characters_kept": 475607084,
+      "dropped": {
+        "language_or_quality_filter": 20755
+      }
+    },
+    {
+      "name": "tkwiki",
+      "source": {
+        "source_url": "https://dumps.wikimedia.org/tkwiki/latest/tkwiki-latest-pages-articles.xml.bz2",
+        "license": "CC BY-SA 4.0 and GFDL",
+        "kind": "encyclopedic_articles"
+      },
+      "source_filename": "tkwiki_latest_pages_articles.xml.bz2",
+      "source_sha256": "753641a1282d7b0442b2322ca464dbeb0f1755dcb458c3ff8e65fdbce80b377a",
+      "source_bytes": 7835938,
+      "processed_file": "processed/monolingual/tkwiki_articles.jsonl.zst",
+      "records_seen": 14863,
+      "records_kept": 8793,
+      "characters_kept": 9896935,
+      "dropped": {
+        "language_or_quality_filter": 534,
+        "non_article_namespace": 5536
+      }
+    },
+    {
+      "name": "tatoeba_tuk",
+      "source": {
+        "source_url": "https://downloads.tatoeba.org/exports/per_language/tuk/tuk_sentences.tsv.bz2",
+        "license": "CC BY 2.0 FR; some records are CC0 (check upstream per-record metadata)",
+        "kind": "sentences"
+      },
+      "source_filename": "tatoeba_tuk_sentences.tsv.bz2",
+      "source_sha256": "2a0531ed85cc5a5eb8514e526dfc63354caeb66c8731bcc8a704361c66678b71",
+      "source_bytes": 89695,
+      "processed_file": "processed/monolingual/tatoeba_tuk_sentences.jsonl.zst",
+      "records_seen": 7248,
+      "records_kept": 6870,
+      "characters_kept": 239842,
+      "dropped": {
+        "language_or_quality_filter": 378
+      }
+    },
+    {
+      "name": "turkmenspeech_transcripts",
+      "source": {
+        "source_url": "https://huggingface.co/datasets/mamed0v/TurkmenSpeech",
+        "license": "CC BY-NC 4.0",
+        "kind": "speech_transcripts"
+      },
+      "source_filename": "turkmenspeech_metadata.csv",
+      "source_sha256": "88a6d7d9638dbf09c5256dd0737d02366b8e9c58ccd5f5b0d39ff2980e5e38aa",
+      "source_bytes": 38382815,
+      "processed_file": "processed/monolingual/turkmenspeech_transcripts.jsonl.zst",
+      "records_seen": 119847,
+      "records_kept": 107235,
+      "characters_kept": 14653221,
+      "dropped": {
+        "duplicate": 3345,
+        "language_or_quality_filter": 9267
+      }
+    },
+    {
+      "name": "alpaca_turkmen",
+      "source": {
+        "source_url": "https://huggingface.co/datasets/mamed0v/alpaca-turkmen",
+        "license": "CC BY-SA 4.0",
+        "kind": "synthetic_or_translated_instruction_pairs"
+      },
+      "source_filename": "alpaca_turkmen.jsonl",
+      "source_sha256": "e694f8118ce75aebfc5696db2a3152b4e5662019e3407602ed13c4f2e06c0bf3",
+      "source_bytes": 118459604,
+      "processed_file": "processed/dialogues/alpaca_turkmen_instruction_pairs.jsonl.zst",
+      "records_seen": 52002,
+      "records_kept": 40699,
+      "characters_kept": 13762605,
+      "dropped": {
+        "language_or_quality_filter": 11303
+      }
+    },
+    {
+      "name": "kakugo_tuk",
+      "source": {
+        "source_url": "https://huggingface.co/datasets/ptrdvn/kakugo-tuk",
+        "license": "Apache-2.0",
+        "kind": "synthetic_or_translated_conversations"
+      },
+      "source_filename": "kakugo_tuk_train.parquet",
+      "source_sha256": "3b8b3e3160f3970f8f81904a8260a52ed9fdf7a9e1b316c032064ee73c6d4025",
+      "source_bytes": 52073854,
+      "processed_file": "processed/dialogues/kakugo_tuk_conversations.jsonl.zst",
+      "records_seen": 40603,
+      "records_kept": 21877,
+      "characters_kept": 35067794,
+      "dropped": {
+        "invalid_or_non_turkmen_conversation": 18726
+      }
+    },
+    {
+      "name": "turkmenportal_news",
+      "source": {
+        "source_url": "https://turkmenportal.com/tm/news",
+        "license": "Official permission granted by user",
+        "kind": "news_articles"
+      },
+      "processed_file": "processed/monolingual/turkmenportal_news.jsonl.zst",
+      "records_kept": 320,
+      "characters_kept": 776431
+    }
+  ],
+  "important_limitations": [
+    "The archive does not claim to contain 1,000–2,000 books or millions of natural human dialogues.",
+    "Kakugo and Alpaca records are synthetic or machine-translated instruction data, not naturally occurring conversations.",
+    "TurkmenSpeech transcripts are CC BY-NC 4.0 and cannot be used commercially.",
+    "HPLT packages data under CC0 but does not own the underlying web text; consult its terms and applicable law before downstream deployment."
+  ]
+}

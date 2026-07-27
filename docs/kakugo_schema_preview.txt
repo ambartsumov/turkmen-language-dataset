@@ -1,0 +1,57 @@
+SCHEMA
+generation_method: string
+prompt_type: string
+scenario: string
+topic: string
+system: string
+messages: list<element: struct<content: string, role: string>>
+  child 0, element: struct<content: string, role: string>
+      child 0, content: string
+      child 1, role: string
+-- schema metadata --
+huggingface: '{"info": {"features": {"generation_method": {"dtype": "stri' + 368
+ROWS 40603
+RECORD_1
+{
+  "generation_method": "context",
+  "prompt_type": "classify",
+  "scenario": null,
+  "topic": null,
+  "system": "Before you respond, first think about your response and enclose your thinking process in <think> and </think> delimiters.",
+  "messages": [
+    {
+      "content": "23:04Çäç\n\n\nÇÄÇ |\nÝyldyrym çakdymy?\nGök gübürdedi?\nÝa-da daglar gozgandymy ýerinden?\nMagnidiñ çekdimi?\nGujurly çignim\nIki büklüp,\nDüwme-düwme derledi.\nMagrupdan Maşryga sergezdan kimin\nYgyşýan bulutlar\nDäli serimden\nÝüz ýylyñ arzuwy, hyýaly birden\nSüýthatynyñ sanajyndan dikaşak\nMüñzäp gaýdan ýagyş ýaly pöwşüldäp\nÄhli kitaplarmy,\nGoş-golamlarmy,\nAsyl-ha özümi ylham siliniñ\nGirdabynda ikiýana bulady.\nFyrgun ýaly gark bolsamam deñizde\nManamanyñ gerişlerne direlen\nNuhuñ gämisinden aman diledim.\nSaña haýal etmän gowuşmak üçin\nDüýnden, öññinden syýymda ýek-tük\nAsylyşyp galan harpyk-hurpygy\nYşkyñ guşgöz eleginde eledim.\nAýama üýşende bir goşawuç çäç\nJemalyña bolsun diýip sadaka\nJüýjesine berdim Humaý guşlaryñ.\nBir boş depder alyp, hem galam bilen\nÝazmak üçin seniñ şirin düýşleriñ\nDek şu gije gidip barýan ýanyña,\nÄhli gunduzlarym,\ngaralam bilen...\n\n\nAwtoryň başga makalalary\n|Ähli teswirler: 4|\n\n\n\nAşakdaky poetik parçany (metaforalar bilen doly) göz öňüne al: \"Çäç | Ýyldyrym çakdymy? … garalam bilen...\". Bu tekst haýsy edebi görnüşe (şigyr, esse, monolog) laýyk gelýär? Kararyňy gyzykly birjyk düşündür, haýsy aýratynlyklar seniň saýlawyňy esaslandyrýar, we jogabyňy iki‑üç jümle içinde ber.",
+      "role": "user"
+    },
+    {
+      "content": "<think> We need to respond in Turkmen, short, concise, 2-3 sentences, explaining the literary form. It's poetic, with metaphors, likely a poem (şigyr) rather than essay or monologue. Give reasons: use of line breaks, lyrical, emotive, metaphorical language, no narrative structure. Provide answer in Turkmen, minimal formatting. </think> Bu parça şigyr (poeziýa) bolup, çünki ol ölçikli setirlerden, ritmik gatnaşykdan we köp derejede metaforik, duýgulary ýakynlaşdyrýan beýanatlardan ybarat; esse ýa-da monologda has ssenariý we düşündirişli akym bolmagy gerek, muny bolsa şigyrda ýok.",
+      "role": "assistant"
+    }
+  ]
+}
+RECORD_2
+{
+  "generation_method": "translated",
+  "prompt_type": null,
+  "scenario": null,
+  "topic": null,
+  "system": "Be concise in your responses.",
+  "messages": [
+    {
+      "content": "2019 ýyl Oscar nominasiýalary täze beýan edildi. Tracee Ellis Ross we Kumail Nanjiani bu beýannamalary Hollywoodda geçirilen dabarada beripdirler we BlackKklasman, Black Panther we A Star Is Born ýaly eserler kategoriýalar boýunça yzygiderli görkezilýän bolsa, bir nominatýa galanlardan ýokarlandy.\nLivanly režissýor Nadine Labaki Oscar üçin nominirlenen ilkinji arap aýaly hökmünde taryhy ýazdy. Olunýan filmi Capharnaum bu ýylki çäräde “Iň gowy daşary dil film” kategoriýasynda nominirlenen. Bu saýlaw 2019 BAFTA we Golden Globes nominasiýalaryndan soňky kabul edilmegi.\nFilmi geçen ýyl ahyrynda ýörite kategoriýa gysga sanawynda bolupdyk, Labaki Instagramda öz guwanşyny aýan edildi we şöyle ýazdy: “Filmimiz ýolunda şunyň ýaly ajaýyp pursat we Livan we arap kinoçulugy üçin uly tapgyr. Çykyş, gözýaş we ter, uzak döredijilik sagatları we ukymsyz gijelerden soň, filmimiz bu ýylki daşary dil #Oscar gysga sanawynda 80-dan köp dünýädäki tabşyryklardan geçip 8 başga film bilen tanadyldy. Biz hasaha guwanançly bolmajak.”\nBu film hal-häzir Labakini halkara derejede neşir eden bir kritiki abraýyny gazanypdy we biziň bir aýdan soň bir aýa dowam edip, ol kategoriýany gazanyp taryhy dowam etdirer ýa-da ýok, belki, bizde ol eýýäm ýeňiji.\nIndi, bu ýylki seremoniýanyň doly nominatýalary sanawyny görüň.\nOscar üçin nominirlenen ilkinji arap aýaly kim we onuň filmi näme?",
+      "role": "user"
+    },
+    {
+      "content": "Nadine Labaki Oscar üçin nominirlenen ilkinji arap aýaldyr we onuň filmi Capharnaum ady bilen tanalýar. Ol 2019 Oscarlar-da “Iň gowy daşary dil film” kategoriýasynda nominirlenýär.",
+      "role": "assistant"
+    },
+    {
+      "content": "Meniň bilen Nadine Labakiniň we onuň Capharnaum filminiň hakyndaky goşmaça maglumatlary paýlaşyp bilersiňizmi? Bu hekae näme hakda we kritikerler tarapyndan nähili kabul edilýär?",
+      "role": "user"
+    },
+    {
+      "content": "Nadine Labaki – livanly aktris, režissýor we senarist. Onuň Capharnaum filmi 12 ýaşlyk Zain atly oglan hakda, ol öz ene- atasyny durmuş beren üçin siziň öňünde hakda iş ýüzüne çykýar, çünki olar onuň we dogalarynyň çäksiz alada etmeýär we olaryň ýaşyna göz ýetirmeýär. Film toýy, adalatsyzlygy we çagalaryň hukugyny araýarlar.\n\nCapharnaum filmine giň gerimeler bar we birnäçe baýrak gazandy. 2018 Cannes film festiwallynda ol Jüri baýragyny gazandy we 15 minutlyk basym çığarmagy aldy. Şuňa meňzeş, Melbourne Halkara Film Festiwalynda, San Sebastian Halkara Film Festiwalynda we Capri Hollywood Halkara Film Festiwalynda hem baýraklar aldy.\n\nKritikerler Capharnaum‑y “güçli”, “yürek bilen agyr” we “unutulmaz tejribe” diýip adlandyrdylar. Film, duýgudarlygy ýokary derejede görkezýän, toýy we sosial adalatsyzlygy realistiki görnüşde beýan edýän we rolçylarynyň kuwwatly çykyşlaryny beýan edýän üçin baýramlandy. Şonuň bilen bir hatarly, film möhüm ykdysady meseleleri aýtýar we jemgyýetiň söhbetdeşligini we deýişini döredýär.",
+      "role": "assistant"
+    }
+  ]
+}

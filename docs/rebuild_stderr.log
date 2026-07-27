@@ -1,0 +1,10 @@
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Starting process_hplt
+[hplt_tuk_cleaned] processed 100,000
+Starting process_wikipedia
+Starting process_tatoeba
+Starting process_speech_transcripts
+[turkmenspeech_transcripts] processed 100,000
+Starting process_alpaca
+Starting process_kakugo
+{"records_kept": 335751, "characters_kept": 549253842}

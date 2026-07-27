@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "errors": [],
+  "summary": [
+    {
+      "file": "hplt_tuk_cleaned.jsonl.zst",
+      "records": 150282,
+      "samples": [
+        "GAZAGYSTAN RESPUBLIKASNYNYN PREZIDENTI – MILLETIN LIDERI N.A. NAZARBAÝEWIN GAZAGYSTANYN HALKYNA ÝÜZLENMESI «GAZAGYSTAN-2050» STRATEGIÝASY YKRAR EDILEN DÖWLETIN TÄZE SYÝASY UGRY Hormatly gazagystanlylar! Gadyrly watandaşlar! Şu gün biz Garaşsyzlyk Gününiň bosagasynda ýygnanyşdyk. Ynha eýýäm 20 ýyldan köp wagt bäri bu ba",
+        "Osman imperiýasy Osman imperiýasy ýa-da Osmanly hökümdarlygy, resmi— Beýik Osmanly döwleti (osm. دولت عالیه عثمانیه — Döwlet-i Aliýýe-i Osmaniýýe) — Oguzlaryň/Türkmenleriň Gaýy« taýpasyndan gelen osmanly soltanlarynyň häkimiýeti astynda 1299-njy we 1923-nji ýyllar aralygynda höküm süren köpmilletli döwlet. Ýewropada Os"
+      ]
+    },
+    {
+      "file": "tkwiki_articles.jsonl.zst",
+      "records": 8793,
+      "samples": [
+        "Himiýa, Kimýä ( \"gara\" sözünden; beýleki ähtimal wariantlary: — \"şire\", \"özen\", \"çyg\", \"tagam\", — \"(metal) splawy\", \"guýmak\", \"akym\", — \"garylmak\") — tebigat ylymlarynyň iň wajyp we giň ugurlarynyň biri. Maddalar, olaryň aýratynlyklary, gurluşlary we himiki reaksiýalaryň netijesinde üýtgeýişleri, şeýle hem şol üýtgeýiş",
+        "Kompýuter inženerleri diňe programma ýazmak däl Kompýuter enjamlary barada-da köp zat bilýändir.   Çalt tertipleme Algoritmy ň sypaty.  Kompýuter inženerligi, programma, programma ýazmak we algoritm bilen giňişleýin meşgul bolar.     Informatika bilen gyzyklanýan türkmenler üçin   Informatika bilen gyzyklanýan türkmenl"
+      ]
+    },
+    {
+      "file": "tatoeba_tuk_sentences.jsonl.zst",
+      "records": 6870,
+      "samples": [
+        "Alla saklasyn!",
+        "Asmanda ýyldyzlar petreşip görünýärdi."
+      ]
+    },
+    {
+      "file": "turkmenspeech_transcripts.jsonl.zst",
+      "records": 107235,
+      "samples": [
+        "hoşallyk sözlerini beýan edýäler",
+        "milli parlamentiň ýolbaşçysy döwlet başlarymyzyň adyndan diplomaty jogapkärli wezipä bellenmegi bilen gutlap oňa iki ýurduň arasyndäky däp bolan dostluk gatnaşyklaryny hemem hyzmatdaşlygy pugtalandyrmak işinde üstünikleri arzuw etdi ilçi hoşniýetli sözler üçin hoşallyk bildirip hormatly prezidentimize ispaniýa patyşala"
+      ]
+    },
+    {
+      "file": "alpaca_turkmen_instruction_pairs.jsonl.zst",
+      "records": 40699,
+      "samples": [
+        "GPT ulanyp, syýasatçynyň karikaturasyny dörediň.  Barak Obama <noinput> Barak Obama sahnanyň ortasynda, şatlykly goldaýanlaryň köpüsi bilen gurşalan. Suratlaryna garanyňda garry görünýär, owadan gara kostýum we zolakly galstuk geýýär. Faceüzi oýnawaç energiýa bilen dolduryldy, adatça sport bilen meşgullanýan çynlakaý w",
+        "Aşakdaky tekst böleklerini täzeden düzüň:  Onuň meýilnamasy bardy. Uzyn boýly, garaňky şekil kölegelerde peýda boldy. Gizlin tabşyryk. Gizlin missiýasy we meýilnamasy bardy. Uzyn boýly, garaňky şekil kölegelerde peýda boldy we meýilnamasyny durmuşa geçirmäge taýýardy."
+      ]
+    },
+    {
+      "file": "kakugo_tuk_conversations.jsonl.zst",
+      "records": 21877,
+      "samples": [
+        "23:04Çäç  ÇÄÇ | Ýyldyrym çakdymy? Gök gübürdedi? Ýa-da daglar gozgandymy ýerinden? Magnidiñ çekdimi? Gujurly çignim Iki büklüp, Düwme-düwme derledi. Magrupdan Maşryga sergezdan kimin Ygyşýan bulutlar Däli serimden Ýüz ýylyñ arzuwy, hyýaly birden Süýthatynyñ sanajyndan dikaşak Müñzäp gaýdan ýagyş ýaly pöwşüldäp Ähli kit",
+        "2019 ýyl Oscar nominasiýalary täze beýan edildi. Tracee Ellis Ross we Kumail Nanjiani bu beýannamalary Hollywoodda geçirilen dabarada beripdirler we BlackKklasman, Black Panther we A Star Is Born ýaly eserler kategoriýalar boýunça yzygiderli görkezilýän bolsa, bir nominatýa galanlardan ýokarlandy. Livanly režissýor Nad"
+      ]
+    }
+  ]
+}
