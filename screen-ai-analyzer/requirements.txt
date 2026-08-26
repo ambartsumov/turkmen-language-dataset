@@ -1,0 +1,23 @@
+# GUI / overlay / D-Bus portal / local IPC
+PySide6>=6.6,<7
+
+# image preprocessing
+Pillow>=10.0
+
+# DeepSeek / OpenAI / OpenRouter / custom OpenAI-compatible endpoints
+httpx>=0.27
+
+# official Gemini SDK
+google-genai>=1.0
+
+# .env support (the app also has a built-in minimal parser)
+python-dotenv>=1.0
+
+# OCR fallback for text-only models (needs the tesseract-ocr system package)
+pytesseract>=0.3.10
+
+# optional: in-process global hotkey on X11 sessions only
+pynput>=1.7; sys_platform == "linux"
+
+# tests
+pytest>=8.0
