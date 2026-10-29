@@ -49,7 +49,7 @@ with open("processed/monolingual/tkwiki_articles.jsonl.zst", "rb") as f:
 
 ## Rebuilding
 
-`processed/build_turkmen_dataset.py` downloads, cleans and filters the sources. `scripts/` holds the crawler, manifest and validation helpers (`validate_dataset.py`, `update_manifest.py`). Build and validation logs are in `docs/`.
+`processed/build_turkmen_dataset.py` downloads, cleans and filters the sources. `scripts/` holds the crawler, manifest and validation helpers (`validate_dataset.py`, `update_manifest.py`). The validation report is in `docs/validation_report.json`.
 
 ## Repository layout
 

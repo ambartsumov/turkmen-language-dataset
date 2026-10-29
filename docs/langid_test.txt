@@ -1,4 +1,0 @@
-turkmen [('__label__tk', np.float64(0.8973752856254578)), ('__label__gom', np.float64(0.023427052423357964)), ('__label__cbk', np.float64(0.02110777609050274))]
-kazakh_latin [('__label__tr', np.float64(0.40162092447280884)), ('__label__io', np.float64(0.04550281539559364)), ('__label__hu', np.float64(0.0419180691242218))]
-english [('__label__en', np.float64(0.9000590443611145)), ('__label__hi', np.float64(0.006147568579763174)), ('__label__es', np.float64(0.005775419995188713))]
-first_1000_hplt_labels [('__label__tk', 887), ('__label__tr', 95), ('__label__en', 12), ('__label__no', 2), ('__label__ru', 2), ('__label__fr', 1), ('__label__de', 1)]
