@@ -56,5 +56,5 @@ with open("processed/monolingual/tkwiki_articles.jsonl.zst", "rb") as f:
 ```
 processed/   dataset files, manifest, per-source notes, build script
 scripts/     crawling, processing and validation scripts
-docs/        build logs and validation report
+docs/        validation report, source schema notes
 ```
